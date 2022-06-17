@@ -2424,7 +2424,7 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   -webkit-appearance: none;
-     -moz-appearance: none;
+    -moz-appearance: none;
           appearance: none;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -11411,12 +11411,50 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("https://images.pexels.com/photos/276452/pexels-photo-276452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-image: url("https://github.com/ShSlosar/Portfolio/blob/main/assets/img/IMG_3898.JPG?raw=true");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
 }
+
+section#services{
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-color: antiquewhite;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+.iconify-inline{
+  color: #000;
+}
+section#team{
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff; 
+  background-color: antiquewhite;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+section#portfolio{
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff; 
+  background-image: url("https://images.pexels.com/photos/532173/pexels-photo-532173.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -11454,6 +11492,7 @@ header.masthead .masthead-heading {
   max-width: 26rem;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 5px 10px 5px #212529;
 }
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
